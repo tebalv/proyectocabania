@@ -1,0 +1,148 @@
+:root{
+    
+    --fuentePrincipal:'Titillium Web', sans-serif; 
+    --fuenteSecundaria:'Vina Sans', cursive; 
+    --fuenteCursiva: 'Great Vibes', cursive; 
+    --moradoOscuro: #4b1c71; 
+    --moradoClaro:#dbb6ee;
+    --marron:#e8c39e;
+    --crudo:#f5e1ce;
+    
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; 
+    
+}
+
+*, *::before, * ::after{
+    box-sizing: inherit;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+   
+
+}
+.enlace{
+    font-size: 1.7rem;
+    color: var(--crudo);
+    text-decoration: none;
+    font-family: var(--fuentePrincipal);
+    padding: 1rem;
+}
+
+.enlace:hover{
+    color: aquamarine;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-weight: bold;    
+}
+.header{
+    background-image: url(header.jpg);
+    background-color: rgb(63, 63, 62);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 73rem; 
+}
+
+.titulo{
+    font-size: 1.7rem;
+    color: var(--crudo);
+    text-decoration: none;
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+    padding-left: 1.5rem;
+    
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2rem solid var(--crudo);
+  
+}
+
+.eslogan{
+    font-size: 5rem;
+    color: var(--moradoClaro);
+    font-family: var(--fuenteCursiva);
+    
+    text-align: center;
+    padding-top: 15rem;
+    margin-bottom: 1rem;
+}
+.eslo{
+    text-align: center;
+    margin-top: 2rem;
+}
+.btnReservar{
+    font-size: 3rem;
+    color: var(--marron);
+    font-family: var(--fuenteSecundaria);  
+    text-decoration: none;   
+    border-radius: 7px;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-bottom: 0.5rem;
+    border: 0.2rem solid var(--marron);
+    
+}
+.btnReservar:hover{
+    background-color: var(--moradoClaro);
+    color: var(--moradoOscuro);
+    transition: 0.3s ease;
+    letter-spacing: 1px;
+    border: var(--moradoClaro);
+}
+.rama{   
+    color: var(--crudo);   
+    font-size: 3rem;   
+}
+.lilas{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+footer{
+    background-color: #240d36;
+    
+}
+.ciudad{
+    font-size: 1.7rem;
+    color: var(--crudo);
+    font-family: var(--fuentePrincipal);
+    padding-right: 2.5rem;
+    font-weight: 300;
+}
+.icono{
+    color: #dbb6ee;
+    font-size: 2.1rem;
+    margin: 0 0.5rem;
+}
+.icono:hover{
+    cursor: pointer;
+    color: var(--crudo);   
+}
+.iconos{
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.foot{
+    border: none;
+}
+.insignia{
+    color: #dbb6ee;
+    font-size: 1.5rem;
+    font-family: var(--fuentePrincipal);
+    padding: 1rem;
+    border-top: solid 0.3px #dbb6ee;
+    text-align: center;
+}

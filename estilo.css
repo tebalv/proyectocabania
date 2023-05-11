@@ -146,3 +146,56 @@ footer{
     border-top: solid 0.3px #dbb6ee;
     text-align: center;
 }
+
+.body {
+    background-color: #240d36;
+}
+
+/* Estilos para el formulario */
+form {
+    max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  /* Estilos para los campos del formulario */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  /* Estilos para el botón de enviar */
+  button[type="submit"] {
+    background-color: #240d36;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #dbb6ee;
+  }
+  

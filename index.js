@@ -37,6 +37,6 @@ form.addEventListener('submit', (event) => {
     message.focus();
     return false;
   }
-  
+}
   // falta función para enviar el correo electrónico
- 
+)
